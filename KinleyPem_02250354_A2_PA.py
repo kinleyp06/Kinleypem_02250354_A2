@@ -41,6 +41,7 @@ sorted_scores = [10, 12, 14, 16, 18, 20, 22, 24, 26, 28,
                  29, 30, 32, 34, 36, 37, 39, 40, 43, 44]
 
 # Display menu options to user
+print("=== Search Program Menu ===")
 print("Select a search operation (1-3):")
 print("1. Linear Search - Find Student ID")
 print("2. Binary Search - Find Score") 
