@@ -33,12 +33,10 @@ def find_a_score(scores, target_score):
     return -1  # Return -1 if score not found
 
 # Our data - list of student IDs (can be in any order)
-class_id = [1017, 1003, 1011, 1008, 1019, 1005, 1014, 1001, 1016, 1020, 
-            1009, 1012, 1004, 1018, 1006, 1013, 1002, 1010, 1015, 1007]
+class_id = [1017, 1003, 1011, 1008, 1019, 1005, 1014, 1001, 1016, 1020, 1009, 1012, 1004, 1018, 1006, 1013, 1002, 1010, 1015, 1007]
 
 # Our data - list of scores (MUST be sorted for binary search to work)
-sorted_scores = [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 
-                 29, 30, 32, 34, 36, 37, 39, 40, 43, 44]
+sorted_scores = [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 29, 30, 32, 34, 36, 37, 39, 40, 43, 44]
 
 # Display menu options to user
 print("=== Search Program Menu ===")
@@ -97,7 +95,3 @@ while True:
     if again.lower() != 'y':
         print("Thank you for using the search program!")
         break  # Exit the while loop and end program
-
-# Start the program
-if __name__ == "__main__":
-    main()
