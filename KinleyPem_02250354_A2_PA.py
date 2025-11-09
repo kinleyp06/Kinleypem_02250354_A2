@@ -97,3 +97,7 @@ while True:
     if again.lower() != 'y':
         print("Thank you for using the search program!")
         break  # Exit the while loop and end program
+
+# Start the program
+if __name__ == "__main__":
+    main()
